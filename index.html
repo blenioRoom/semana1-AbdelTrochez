@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Mi Portafolio</title>
+     <link rel="stylesheet" href="./css/estilos.css">
+     <script src="https://kit.fontawesome.com/0d04c5a105.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <section id="inicio">
+          <nav class="navegacion">
+               <input type="checkbox" id="check">
+               <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+               </label>
+               <ul class="lista">
+                    <li><a href="#sobreMi">Sobre Mi</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+               </ul>
+          </nav>
+          <div class="portada">
+               <img src="./img/Avatar.png" alt="Avatar" class="portadaImagen">
+               <h2>Abdel Trochez</h2>
+               <h3>Desarrollador Full Stack</h3>
+               <a href="#contacto" class="portadaContacto">Contacteme</a>
+          </div>
+     </section>
+     <section id="sobreMi">
+          <h2>Sobre Mi</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla accusantium rem voluptatem dolor? Suscipit ipsa facilis consequuntur, quisquam quam dolore a, officiis laudantium ratione, perspiciatis aliquam illum velit illo. Temporibus.</p>
+     </section>
+     <section id="proyectos">
+          <div class="proyectoTitulo">
+               <h2>Proyectos</h2>
+               <h3>Ultimos Trabajos</h3>
+          </div>
+          <div class="container">
+               <div class="proyImagenes">
+                    <img src="./img/img1.jpg" alt="Ilustracion 1">
+                    <div class="capa">
+                         <h1>Proyecto X</h1>
+                    </div>
+               </div>
+               <div class="proyImagenes">
+                    <img src="./img/img2.jpg" alt="Ilustracion 2">
+                    <div class="capa">
+                         <h1>Proyecto Y</h1>
+                    </div>
+               </div>
+               <div class="proyImagenes">
+                    <img src="./img/img3.jpg" alt="Ilustracion 3">
+                    <div class="capa">
+                         <h1>Proyecto Z</h1>
+                    </div>
+               </div>
+          </div>
+     </section>
+     <section id="contacto">
+          <h2>Contacto</h2>
+          <h3>Escribanos, Trabajemos Juntos</h3>
+          <form action="">
+               <div class="firstRow">
+                    <input type="text" id="name" placeholder="Nombre">
+                    <input type="email" id="email" placeholder="correo@ejemplo.com">
+                    <input type="text" id="asunto" placeholder="Asunto"><br>
+               </div>
+               <div>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="1" placeholder="Mensaje" class="mensajeContacto"></textarea><br>
+               </div>
+               <input type="submit" class="submitButton">
+          </form>
+     </section>
+     <footer>
+          <div class="titulos">
+               <h2>Abdel Trochez</h2>
+               <h3>Desarrollador Full Stack</h3>
+          </div>
+          <div class="icons">
+               <a href="https://github.com/AbdelTrochez" target="_blank"><i class="fab fa-github"></i></a>
+               <a href="https://www.facebook.com/abdel.trochez/" target="_blank"><i class="fab fa-facebook"></i></a>
+          </div>
+     </footer>
+</body>
+</html>
